@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NVENT AWS Parts</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+
+<SCRIPT LANGUAGE="JavaScript">
+  function changeImage()
+  {
+    mainimage.src = list.options[list.selectedIndex].value;
+  }
+  function prevImage()
+  {
+    if(list.selectedIndex == 0)
+    {
+      list.selectedIndex = list.options.length-1;
+    }
+    else
+    {
+      list.selectedIndex--;
+    }
+    changeImage();
+  }
+  function nextImage()
+  {
+    if(list.selectedIndex == list.options.length-1)
+    {
+      list.selectedIndex = 0;
+    }
+    else
+    {
+      list.selectedIndex++;
+    }
+    changeImage();
+  }
+  </script>
+<style>
+    h1 {
+      color: white;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+    </style>
+
+</head>
+<body onLoad="javascript:changeImage()">
+  <nav class="bg-gray-700">
+    <table align="center" width="100%">
+      <tr class="font-bold text-md flex space-x-3" style="font-family: 'Times New Roman', Times, serif;">
+        <td width="300">
+          &nbsp;
+        </td>
+        <td width="100">
+          <a href="../index.html" class="sm:text-center block w-full text-gray-300 hover:bg-black hover:text-white rounded-md">HOME</a>
+        </td>
+      <td width="100">
+        <a href="../AWS.html" class="sm:text-center block w-full text-gray-300 hover:bg-black hover:text-white rounded-md">AWS</a>
+      </td>
+      <td width="100">
+        <a href="../BSH_PRO24/BSH_PRO24.html" class="sm:text-center block w-full text-gray-300 hover:bg-black hover:text-white rounded-md">BOSCH</a>
+      </td>
+      <td width="100">
+        <a href="#" class="sm:text-center block w-full text-gray-300 hover:bg-black hover:text-white rounded-md">Whirlpool</a>
+      </td>
+      <td width="100">
+        <a href="mailto:tanarak.wilairat@nvent.com" class="sm:text-center block w-full text-gray-300 hover:bg-black hover:text-white rounded-md">Contact Dev</a>
+      </td>
+      <td width="300" align="right">
+        <form name="test">
+          <input type="text" size="8" name="Clock" class="font-bold bg-gray-700 text-white rounded-sm">
+          </form>
+      </td>
+    </tr>
+    </table>
+          </nav>
+      <div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+        <div class="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
+          <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
+        </div>
+        <div class="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl" aria-hidden="true">
+          <div class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"></div>
+        </div>
+        <div class="flex flex-auto items-center gap-x-4 gap-y-2" style="font-family: 'Times New Roman', Times, serif;">
+          <p class="text-md leading-6">
+            <strong>Welcome to CIS Global NVENT- Catalogs</strong>
+          </p>
+          <a href="https://www.nvent.com/en-th/" target="_blank" class="flex-none rounded-full bg-indigo-600 px-3.5 py-1 text-sm font-semibold text-white hover:bg-yellow-400">nVent<span aria-hidden="true">&rarr;</span></a>        </div>
+        
+        </div>
+      </div>
+      <br><br>
+<table class="rounded-3xl ring-1 ring-inset" align="center" width="80%">
+            <tr>
+              <td class="rounded-lg" width="400" align="center"><br>
+                <img src="AWS-LOGO.png" width="300" class="rounded-lg"><br>
+              </td>
+              <td class="align-top" colspan="2" width="800" valign="middle"><br>
+
+        <table width="90%" height="200" align="center">
+          <tr><td class="bg-gray-300 rounded-lg text-3xl font-bold" align="center" style="font-family: 'Times New Roman', Times, serif;">
+                <h1>✦ AWS | 54 Parts Catalogs</h1>
+              </td></tr></table><br>
+            </td></tr>           
+                </table>
+                <br>
+
+                <table class="rounded-md ring-1 ring-gray-500" align="center" width="80%">
+                  <tr><td align="center" height="350" colspan="3"><div><br>
+                    <img name="mainimage" width="250">
+                    <br></div>
+                    </td></tr>
+                    <tr><td colspan="3" class="h-0">
+                      <div class="h-px flex-auto bg-gray-500"></div>
+                    </td></tr>
+                    <tr style="font-family: 'Times New Roman', Times, serif; background-color: whitesmoke;">
+                        <td class="align-top text-center" width="400">
+                            <p class="mt-0"><a href="#." onclick="javascript:prevImage()" class="block w-full rounded-md text-center text-lg font-bold text-black hover:bg-gray-300 hover:text-white">&#9664;&#9664;&#9664; BACK</a>
+                            </p>
+                        </td>
+                        <td class="align-top text-center" width="400">
+                            <select id="list" onchange="javascript:changeImage()" class="h-7 w-full text-black text-lg font-bold rounded-md" style="background-color:whitesmoke">
+                              <!-- วิธีการเพิ่มรูปภาพใน ALBUM
+                              
+                              ก็ COPY CODE ด้านล่างนี้ไปวางไว้ต่อจากบรรทัดของ ภาพที่ 4 เลยครับ
+                              
+                              <option value="urlpic.jpg">ภาพที่ ....</option>
+                              
+                              -->	
+                              <option value="340-12956.png">01. 340-12956 | RIVET,STEEL,φ6.0X6.45</option>
+                              <option value="340-12957.png">02. 340-12957 | Short spring</option>
+                              <option value="340-13018.png">03. 340-13018 | SCREW, M4X5.2</option>
+                              <option value="340-13157.png">04. 340-13157 | RIVET,STEEL, φ7.5X4.3</option>
+                              <option value="340-13158.png">05. 340-13158	| SPRING,STRAIGHT</option>
+                              <option value="340-13159.png">06. 340-13159 | RIVET,SS, φ7.0X3.35</option>
+                              <option value="340-13166.png">07. 340-13166 | PIN,SS,φ3.3X6.2</option>
+                              <option value="340-13167.png">08. 340-13167 | SCREW,M5X10, NYLOCK</option>
+                              <option value="340-13168.png">09. 340-13168	| SPRING,TORSIONAL</option>
+                              <option value="340-13169.png">10. 340-13169 | RIVET,STEEL, φ6.5X3.0</option>
+                              <option value="340-13170.png">11. 340-13170 | T-PIN,φ8.5X7.75</option>
+                              <option value="340-13171.png">12. 340-13171 | RIVET,STEEL, φ7.0X3.3</option>
+                              <option value="340-13235.png">13. 340-13235 | Ball,Sφ2.35</option>
+                              <option value="340-13276.png">14. 340-13276 | Ball,Sφ2.76</option>
+                              <option value="340-13331.png">15. 340-13331 | SPRING</option>
+                              <option value="462-18958.png">16. 462-18958 | RETAINER LOCK</option>
+                              <option value="462-19128.png">17. 462-19128 |	Middle Member</option>
+                              <option value="462-19129.png">18. 462-19129 | Ball Retainer</option>
+                              <option value="462-19130.png">19. 462-19130 | Pull rod B,Rear Lock</option>
+                              <option value="462-19131.png">20. 462-19131 | Front Bracket</option>
+                              <option value="462-19132.png">21. 462-19132 | Stopper</option>
+                              <option value="462-19133.png">22. 462-19133 | Outer Member</option>
+                              <option value="462-19135.png">23. 462-19135 | Inner Member,Left</option>
+                              <option value="462-19137.png">24. 462-19137 | Inner Member,Right</option>
+                              <option value="462-19138.png">25. 462-19138 | Pull rod A,Front Lock</option>
+                              <option value="462-19139.png">26. 462-19139 | Pull rod B,Front Lock</option>
+                              <option value="462-19140.png">27. 462-19140 | Pull rod A,Rear Lock</option>
+                              <option value="462-19142.png">28. 462-19142 | SERVER LOCK</option>
+                              <option value="462-19143.png">29. 462-19143	| Front lock A</option>
+                              <option value="462-19144.png">30. 462-19144 | Pull rod B,Rear Lock</option>
+                              <option value="462-19145.png">31. 462-19145 | Bracket Left</option>
+                              <option value="462-19146.png">32. 462-19146 | Bracket Right</option>
+                              <option value="462-19147.png">33. 462-19147 | Front Latch,Left</option>
+                              <option value="462-19148.png">34. 462-19148 | Front Latch,Right</option>
+                              <option value="532-10355.png">35. 532-10355 | Dessicant สารดูดความชื้น</option>
+                              <option value="532-10706.png">36. 532-10706 | PKG, BAG Plastic,50 * 90 mm, Zip lock</option>
+                              <option value="532-11352.png">37. 532-11352 | Label, BOX</option>
+                              <option value="532-11559.jpg">38. 532-11559 | Pallet 1000 x 1200 x 140 mm.</option>
+                              <option value="532-11584.png">39. 532-11584 | Sleeve Box 1180*970*610mm</option>
+                              <option value="532-11590.png">40. 532-11590 | Top/Bottom 1200*995*80mm</option>
+                              <option value="532-12813.png">41. 532-12813	| Long Pillar Corner</option>
+                              <option value="532-16839.png">42. 532-16839 | Carton</option>
+                              <option value="532-16840.png">43. 532-16840 | Cushion - L</option>
+                              <option value="532-16841.png">44. 532-16841 | Cushion - R</option>
+                              <option value="532-16842.png">45. 532-16842	| Middle Buffer</option>
+                              <option value="532-17349.png">46. 532-17349 | PE BAG,1100X90</option>
+                              <option value="532-17350.png">47. 532-17350 | Label,Left Rail</option>
+                              <option value="532-17351.png">48. 532-17351 | Label,Right Rail</option>
+                              <option value="532-17352.png">49. 532-17352	| Label,Screw bag</option>
+                              <option value="609-10900.png">50. 609-10900 | BALL RETAINER,PLASTIC</option>
+                              <option value="609-10901.png">51. 609-10901 | GUILDBUSH,FRONT</option>
+                              <option value="609-10902.png">52. 609-10902 | GUILDBUSH,REAR</option>
+                              <option value="609-10904.png">53. 609-10904 | CUSHION,TPU</option>
+                              <option value="639-00024.png">54. 639-00024 | G-BUSH,REAR,CAB-INT</option>
+                              
+                              </select>
+                        </td>
+                        <td class="align-top text-center" width="400">
+                            <p class="mt-0"> <a href="#." onclick="javascript:nextImage()" class="block w-full rounded-md text-center text-lg font-bold text-black hover:bg-gray-300 hover:text-white">NEXT &#9654;&#9654;&#9654;</a>
+</p>
+                        </td>
+                              </tr>
+
+                </table>
+          </div>
+        </div>
+      </div><br><br>
+      
+
+<br><br>
+
+      <div class="bg-white py-24 sm:py-24">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl sm:text-center" style="font-family:'Times New Roman', Times, serif;">
+            <p class="font-bold tracking-tight sm:text-5xl">nVent Parts of production</p>
+            <p class="mt-6 sm:text-lg">Use for Internal only don't publish to anyone out of company.</p>
+          </div>
+          <div class="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-300 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+            <div class="p-8 sm:p-10 lg:flex-auto">
+              <div class="font-bold text-indigo-600 text-3xl" style="font-family:'Times New Roman', Times, serif;">
+                Credit
+              </div>
+              <ul role="list" class="mt-8 grid grid-cols-1 gap-4 text-md leading-7 sm:grid-cols-2 sm:gap-3 font-bold" style="font-family: 'Times New Roman', Times, serif;">
+                <li>
+                    ✦ Data by - Warehouse
+                </li>
+                <li>
+                    ✦ Arangemented by - T&Lambda;N&Lambda;R&Lambda;K WIL&Lambda;IR&Lambda;T
+                </li>
+                <li>
+                    ✦ Designed by - T&Lambda;N&Lambda;R&Lambda;K WIL&Lambda;IR&Lambda;T
+                </li>
+                <li>
+                    ✦  Created by - T&Lambda;N&Lambda;R&Lambda;K WIL&Lambda;IR&Lambda;T
+                </li>
+              </ul></h1><br><br>
+              <div class="h-px flex-auto bg-gray-300"></div><br><br>
+              <div class="font-bold text-black text-md sm:text-center" style="font-family:'Times New Roman', Times, serif;">
+                CIS GLOBAL &copy; 2023 All right reserved.
+              </div>
+              <div class="font-bold text-black text-md sm:text-center" style="font-family:'Times New Roman', Times, serif;">
+               Powered by T&Lambda;N&Lambda;R&Lambda;K WIL&Lambda;IR&Lambda;T
+              </div>
+            </div>
+            <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+              <div class="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+                <div class="mx-auto max-w-xs px-8">
+                  <a href="https://www.nvent.com/en-th/" target="_blank" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg- xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="nVent_Logo_RGB_F2.png" class="rounded-lg object-cover object-center group-hover:grayscale">
+                </div></a></div>
+                <div class="mt-5 mx-auto max-w-xs px-8">
+                  <a href="#" class="group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg- xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="CISGLOBAL-Ai.png" class="rounded-lg object-cover object-center group-hover:grayscale">
+                    </div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        <!--
+        function show(){
+        var Digital=new Date()
+        var hours=Digital.getHours()
+        var minutes=Digital.getMinutes()
+        var seconds=Digital.getSeconds()
+        var dn="AM" 
+        if (hours>=12)
+        dn="PM"
+        if (hours>12)
+        hours=hours-12
+        if (hours==0)
+        hours=12
+        if (minutes<=9)
+        minutes="0"+minutes
+        if (seconds<=9)
+        seconds="0"+seconds
+        document.test.Clock.value=hours+":"+minutes+":"
+        +seconds+" "+dn
+        setTimeout("show()",1000)
+        }
+        show()
+        //-->
+        </script>      
+</body>
+</html>
